@@ -1,0 +1,12 @@
+/* Estilo del bloque de Page */
+.page {
+  display: flex;
+  align-items: center;
+  min-width: 1100px;
+  max-width: 1600px;
+  background-color: #2a2c2f;
+  height: 100vh;
+  flex-direction: column;
+  color: #fff;
+  height: auto;
+}
