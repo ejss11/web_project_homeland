@@ -1,0 +1,11 @@
+.places {
+  display: flex;
+  align-items: center;
+  width: 987px;
+  height: 4098px;
+}
+
+.card {
+  width: 984px;
+  height: 756px;
+}

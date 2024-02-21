@@ -1,0 +1,11 @@
+.photo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1184px;
+  height: 442px;
+  margin: 0;
+  gap: 16px;
+  margin: 0 0 92px 0;
+}
