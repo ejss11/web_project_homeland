@@ -31,6 +31,8 @@
 .cover__subtitle {
   width: 280px;
   height: 66px;
+  list-style-type: none;
+  padding: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
