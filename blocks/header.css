@@ -23,6 +23,7 @@
 .header__logo_svg {
   width: 32px;
   height: 32px;
+  margin: 0;
 }
 
 .header__logo_title {
@@ -63,7 +64,6 @@
   width: 984px;
   height: 615px;
   filter: grayscale(1);
-  padding: 62px 0 0 0;
 }
 
 @media screen and (max-width: 768px) {
