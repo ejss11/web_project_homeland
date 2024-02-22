@@ -13,15 +13,17 @@
 .places__content {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: center;
+  position: relative;
   width: 984px;
   height: 756px;
-  gap: 40px;
   margin: 0 0 35px 0;
 }
 .places__content_gallery-item {
-  display: flex;
+  /* display: flex;
+
+  align-items: flex-start; */
+
   flex-direction: column;
   align-items: flex-start;
 }
@@ -43,6 +45,9 @@
 .places__content_gallery-button {
   width: 355px;
   height: 48px;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
   background: #0278fe;
   border-radius: 4px;
   font-family: "Inter";
@@ -50,13 +55,14 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+  margin: 0;
+  text-align: center;
   /* identical to box height */
 
   color: #ffffff;
 }
 
 .places__content_description-item {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -72,7 +78,7 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #aaaaaa;
-  margin: 0 0 8px 0;
+  margin: 0;
 }
 
 .places__content_description-autor {
@@ -89,7 +95,7 @@
 }
 .places__content_description-one {
   width: 484px;
-  /* height: 203px; */
+  height: 203px;
   margin: 48px 0 0 0;
   font-family: "Inter";
   font-style: normal;
@@ -112,7 +118,7 @@
 .places__content_description-three {
   width: 484px;
   height: 232px;
-  /* margin: 25px 0 0 0; */
+  margin: 25px 0 0 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -161,7 +167,7 @@
     height: 340px;
   }
 
-  .places__content {
+  /* .places__content {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -169,7 +175,7 @@
     gap: 28px;
     width: 720px;
     height: 632px;
-  }
+  } */
 
   .places__content_gallery-item {
     width: 350px;
