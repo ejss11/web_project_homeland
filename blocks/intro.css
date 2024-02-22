@@ -3,7 +3,7 @@
   align-items: flex-start;
   flex-direction: column;
   width: 1017px;
-  height: 600px;
+  max-height: 600px;
 
   position: relative;
   box-sizing: border-box;
@@ -46,7 +46,7 @@
   justify-content: flex-end;
 }
 
-.intro__text_paragraph {
+.intro__text-paragraph {
   width: 720px;
   height: 182px;
   margin: 0;
