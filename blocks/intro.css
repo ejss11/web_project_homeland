@@ -3,18 +3,22 @@
   align-items: flex-start;
   flex-direction: column;
   width: 1017px;
-  height: 516px;
-  margin: 92px 115px 92px 148px;
+  height: 600px;
+
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 0 92px 0;
 }
 
 .intro__title {
+  width: 1017px;
   height: 116px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  margin: 0;
+  margin: 92px 0 0 0;
 }
 
 .intro__text {
@@ -51,4 +55,19 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 720px;
+  }
+  .intro__title {
+    width: 720px;
+    height: 232px;
+  }
+
+  .intro__text {
+    width: 720px;
+    height: 136px;
+  }
 }

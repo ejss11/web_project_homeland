@@ -2,11 +2,17 @@
 .page {
   display: flex;
   align-items: center;
-  min-width: 1100px;
+  min-width: 320px;
   max-width: 1600px;
+
   background-color: #2a2c2f;
-  height: 100vh;
+  height: 0 auto;
   flex-direction: column;
   color: #fff;
-  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    width: 768px;
+  }
 }

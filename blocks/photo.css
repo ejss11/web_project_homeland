@@ -3,9 +3,22 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  position: relative;
+  box-sizing: border-box;
   width: 1184px;
   height: 442px;
-  margin: 0;
   gap: 16px;
   margin: 0 0 92px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .photo {
+    width: 720px;
+    height: 1104px;
+  }
+
+  .galeria {
+    width: 352px;
+    height: 264px;
+  }
 }

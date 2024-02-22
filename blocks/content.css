@@ -1,0 +1,18 @@
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  height: 6096px;
+  min-height: 720px;
+  max-height: 7480px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 720px;
+    margin: 0 auto;
+  }
+}

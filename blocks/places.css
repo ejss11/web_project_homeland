@@ -1,11 +1,175 @@
 .places {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  box-sizing: border-box;
   width: 987px;
   height: 4098px;
+  margin: 0 auto;
 }
 
-.card {
+.places__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   width: 984px;
   height: 756px;
+  gap: 40px;
+  margin: 0 0 35px 0;
+}
+.places__content_gallery-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.places__content_gallery-title {
+  width: 460px;
+  height: 152px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0 0 48px 0;
+}
+.places__content_gallery-photo {
+  width: 460px;
+  height: 460px;
+  margin: 0 0 48px 0;
+}
+.places__content_gallery-button {
+  width: 355px;
+  height: 48px;
+  background: #0278fe;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.places__content_description-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.places__content_description-title {
+  width: 58px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin: 0 0 8px 0;
+}
+
+.places__content_description-autor {
+  width: 456px;
+  height: 22px;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.places__content_description-one {
+  width: 484px;
+  height: 203px;
+  margin: 48px 0 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+.places__content_description-two {
+  width: 484px;
+  height: 232px;
+  margin: 25px 0 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+.places__content_description-three {
+  width: 484px;
+  height: 232px;
+  margin: 25px 0 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    height: 100%;
+    margin: 0;
+  }
+  .places__content_description-item {
+    width: 352px;
+  }
+  .places__content_description-autor {
+    margin: 0;
+  }
+  .places__content_description-one {
+    width: 352px;
+    height: auto;
+    font-size: 16px;
+    margin: 25px 0 0 0;
+  }
+
+  .places__content_description-two {
+    width: 352px;
+    height: auto;
+    font-size: 16px;
+    margin: 25px 0 0 0;
+  }
+
+  .places__content_description-three {
+    width: 352px;
+    font-size: 16px;
+    margin: 0;
+  }
+  .places__content_gallery-title {
+    height: 92px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .places__content_gallery-photo {
+    width: 340px;
+    height: 340px;
+  }
+
+  .places__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 28px;
+    width: 720px;
+    height: 632px;
+  }
+
+  .places__content_gallery-item {
+    width: 350px;
+  }
 }
