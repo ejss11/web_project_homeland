@@ -16,3 +16,10 @@
   line-height: 16px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) and (max-width: 320px) {
+  .page {
+    width: 100%;
+    height: auto;
+  }
+}

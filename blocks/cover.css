@@ -7,6 +7,11 @@
   background-size: cover;
   filter: opacity(0.9);
 }
+
+.cover:hover {
+  mix-blend-mode: multiply; /* Modo de mezcla al pasar el cursor */
+  background-color: #2a2c2f;
+}
 .cover__content {
   display: flex;
   flex-direction: column;
@@ -52,18 +57,22 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+  border: 0;
   /* identical to box height */
 
   color: #ffffff;
 }
 
+.cover__button:hover {
+  background-color: #0063d2;
+}
 @media screen and (max-width: 768px) {
   .cover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 768px;
-    height: 746px;
+    width: 100%;
+    height: auto;
   }
   .cover__title {
   }
