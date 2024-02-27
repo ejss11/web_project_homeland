@@ -4,24 +4,24 @@
   flex-direction: column;
   position: relative;
   box-sizing: border-box;
-  height: 6096px;
-  min-height: 720px;
-  max-height: 7480px;
+
+  max-height: 100%;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
   .content {
     width: 720px;
-    height: auto;
-    margin: 0 auto;
+    height: 100%;
+    margin: 55px 0 0 0;
+    position: relative;
   }
 }
 
 @media screen and (max-width: 320px) {
   .content {
     width: 320px;
-    height: auto;
-    margin: 0 auto;
+    height: 100%;
+    margin: 0;
   }
 }
